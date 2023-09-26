@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #000000;
+  --bg-card: #0E1218;
+  --text: #F1F1F1;
+  --img-profile: #8257e5;
+  --buttons: #FFF;
+   --border-button: #1A1A1A;
+  
+}
+
+body{
+  background-color: var(--bg-card);
+}
+
+#customizableBorder {
+  position: relative;
+  margin: 106px 366px ;
+  width:318px;
+  height:450px;
+  border-radius: 40px;
+  z-index: 10;
+}
+
+button {
+  position: absolute;
+
+  width: 155px;
+  height: 49px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--bg);
+  border: var(--border-button) 1px solid;
+  color: var(--text);
+}
+button:hover{
+  background-color: var(--border-button);
+}
+#boxInside{
+  position: absolute;
+  margin: 24px 16px;
+  width:286px;
+  height:402px;
+  background-color: var(--bg-card);
+  border-radius: 30px;
+}
+
+#imgContainer{
+  position: absolute;
+  margin: 0px 10px;   
+  overflow: hidden;
+  width: 293px;
+  
+}
+
+#profileImg{
+  margin: 100px 65px;
+  width: 270px;
+  height: 275.22px;
+  border-radius: 50%;
+  border: 5px solid;
+}
+input{
+  width:300px;
+  height: 40px;
+  border-radius: 3px;
+  justify-content: center;
+}
+input.placeholder{
+  align-items: center;
+}
+input:invalid {
+  border: 2px solid red;
+}
+input:valid {
+  border: 2px solid black;
+}
+#userData{
+color: white;
+position: absolute;
+overflow: hidden;
+}
+#borderBottom{
+margin: 219px 392px;
+}
+#modalButton{
+margin: 0px 50px
+}
